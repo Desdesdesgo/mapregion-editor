@@ -1,2 +1,18 @@
 # mapregion-editor
-an editor making geojson
+
+一定有很多同学在工作中有这样的需求：
+做一个城市（或者国家）的地图，里面有多个区域，每个区域点击后有联动的数据展示。
+问题在于：有些区域根本没有数据，但是有需求；
+何况最近echarts 关闭了地图信息的下载入口。
+因此做了这个工具，手绘地图，自动生成geojson 格式的文件供下载。
+
+### 看效果
+
+![操作方式](https://user-gold-cdn.xitu.io/2017/10/18/f41c1c98b01ca91976fa89ee55b72a71)
+
+### 在线访问：
+http://120.55.52.67/
+
+
+如果有需求就开源。
+vue+element+echarts+百度地图+thinkphp
